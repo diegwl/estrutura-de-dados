@@ -11,11 +11,11 @@ public class Pilha {
 	}
 	
 	public void pop() {
-		lista.removerDoFinal();
+		lista.removerNoFinal();
 	}
 	
 	public Object top() {  //peek
-		return lista.pegarUltima();
+		return lista.pegar(pegarTamanho() - 1);
 	}
 	
 	public boolean contem(Object elemento) {
@@ -23,10 +23,10 @@ public class Pilha {
 	}
 	
 	public int pegarTamanho() {
-		return lista.pegarTotalElementos();
+		return lista.pegaTotalElementos();
 	}
 	
 	public Object pegarPrimeiro() {
-		return lista.pegarPrimeiro();
+		return lista.pegar(0);
 	}
 }

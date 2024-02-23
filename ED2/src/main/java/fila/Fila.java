@@ -11,7 +11,7 @@ public class Fila  {
 	}
 	
 	public void remover() {
-		lista.removerDoComeco();
+		lista.removerNoComeco();
 	}
 	
 	public boolean ehVazia() {
@@ -24,8 +24,8 @@ public class Fila  {
 			return null;
 		}
 		else {
-			Object primeiro = lista.pegarPrimeiro();
-			lista.removerDoComeco();
+			Object primeiro = lista.pegar(0);
+			lista.removerNoComeco();
 			return primeiro;
 		}
 	}
@@ -35,16 +35,25 @@ public class Fila  {
 	}
 	
 	public Object pegaPrimeiro() {
-		return lista.pegarPrimeiro();
+		return lista.pegar(0);
 	}
 	
 	public Object pegaUltimo() {
-		return lista.pegarUltima();
+		return lista.pegar(pegarTamanho() - 1);
+	}
+
+	public Object pegaPosicao(int posicao) {
+		return lista.pegar(posicao);
 	}
 	
 	public int pegarTamanho() {
-		return lista.pegarTotalElementos();
+		return lista.pegaTotalElementos();
 	}
 
+	public Object pollPosicao(int posicao) {
+		Object removido = lista.pegar(posicao);
+		lista.removerNaPosicao(posicao);
+		return removido;
+	}
 
 }
