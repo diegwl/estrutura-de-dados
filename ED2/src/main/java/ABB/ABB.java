@@ -82,7 +82,7 @@ public class ABB {
 	}
 
 	private No procuraNo(int valor, No noReferencia) {
-		if (valor == noReferencia.getValor()) {
+		if (noReferencia == null || valor == noReferencia.getValor()) {
 			return noReferencia;
 		} else if (valor <= noReferencia.getValor()) {
 			return procuraNo(valor, noReferencia.getEsquerdo());
