@@ -349,4 +349,46 @@ class ABBTest {
 		assertFalse(arvore.contem(5));
 	}
 
+	@Test
+	void pegarNumeroDeParesVazia() {
+		arvore = builder.montaArvoreVazia();
+
+		assertEquals(0, arvore.pegarNumeroDePares());
+	}
+
+	@Test
+	void pegarNumeroDePares() {
+		arvore = builder.montaArvoreCheiaDoisNiveis();
+
+		assertEquals(3, arvore.pegarNumeroDePares());
+	}
+
+	@Test
+	void pegarNumeroDeParesDnv() {
+		arvore = builder.montaArvoreEspecialParaExclusao();
+
+		assertEquals(6, arvore.pegarNumeroDePares());
+	}
+
+	@Test
+	void pegarMaiorVazia() {
+		arvore = builder.montaArvoreVazia();
+
+		assertEquals(0, arvore.pegarMaiorValor());
+	}
+
+	@Test
+	void pegarMaior() {
+		arvore = builder.montaArvoreCheiaDoisNiveis();
+
+		assertEquals(8, arvore.pegarMaiorValor());
+	}
+
+	@Test
+	void pegarMaiorDnv() {
+		arvore = builder.montaArvoreEspecialParaExclusao();
+
+		assertEquals(23, arvore.pegarMaiorValor());
+	}
+
 }

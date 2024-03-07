@@ -257,4 +257,33 @@ public class ArvoreBinariaBusca {
 		print2DUtil(noReferencia.getEsquerdo(), space);
 	}
 
+	private int contarPares(No no) {
+		if (no != null) {
+			if (no.getValor() % 2 == 0) {
+				return contarPares(no.getEsquerdo()) + 1 + contarPares(no.getDireito());
+			} else {
+				return contarPares(no.getEsquerdo()) + contarPares(no.getDireito());
+			}
+		}
+		else return 0;
+	}
+
+	public int pegarNumeroDePares() {
+		return contarPares(raiz);
+	}
+
+	private No percorrerDireita(No no) {
+		if (no.getDireito() == null) {
+			return no;
+		}
+		return percorrerDireita(no.getDireito());
+	}
+
+	public int pegarMaiorValor() {
+		if (raiz == null) {
+			return 0;
+		}
+		return percorrerDireita(raiz).getValor();
+	}
+
 }
