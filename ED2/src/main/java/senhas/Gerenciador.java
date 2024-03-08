@@ -5,8 +5,8 @@ import fila.Fila;
 import java.util.Scanner;
 
 public class Gerenciador {
-    private Fila fila = new Fila();
-    private Fila filaPreferencial = new Fila();
+    private final Fila fila = new Fila();
+    private final Fila filaPreferencial = new Fila();
     Scanner scanner = new Scanner(System.in);
 
     private int senhaAtual = 0;
@@ -14,13 +14,14 @@ public class Gerenciador {
 
     public void menu() {
         System.out.println(
-                "---GERENCIADOR-DE-SENHAS---" +
-                "1. Senha Normal" +
-                "2. Senha Preferencial" +
-                "3. Chamar Senha" +
-                "4. Sair do Programa"
+                "---GERENCIADOR-DE-SENHAS---\n" +
+                "1. Senha Normal\n" +
+                "2. Senha Preferencial\n" +
+                "3. Chamar Senha\n" +
+                "4. Sair do Programa\n" +
+                "\nDigite a opção desejada: "
         );
-        scanner.nextInt(op);
+        op = scanner.nextInt();
         switch (op) {
             case 1:
                 adicionarFila();
@@ -43,24 +44,22 @@ public class Gerenciador {
         menu();
     }
 
-    public int adicionarFila() {
+    private void adicionarFila() {
         senhaAtual++;
         fila.adicionar(senhaAtual);
-        return senhaAtual;
     }
 
-    public int adicionarFilaPreferencial() {
+    private void adicionarFilaPreferencial() {
         senhaAtual++;
         filaPreferencial.adicionar(senhaAtual);
-        return senhaAtual;
     }
 
-    public int chamarSenha() {
+    private int chamarSenha() {
         if (!filaPreferencial.ehVazia()) {
             return (int) filaPreferencial.poll();
         } else if (!fila.ehVazia()) {
-            return (int) filaPreferencial.poll();
+            return (int) fila.poll();
         }
-        throw new IllegalArgumentException("Sem Senhas para Chamar");
+        return 0;
     }
 }
