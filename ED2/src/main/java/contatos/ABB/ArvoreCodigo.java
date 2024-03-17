@@ -107,26 +107,27 @@ public class ArvoreCodigo {
         return no != null;
     }
 
-	public void adicionaNo(Contato valorNoAdicionado) {
+	public boolean adicionaNo(Contato valorNoAdicionado) {
 		if (raiz == null) {
 			raiz = new No(valorNoAdicionado, null, null);
+			return true;
 		} else {
 			No atual = raiz;
 			while (true) {
 				if (valorNoAdicionado.getCodigo() < atual.getCodigoContato()) {
 					if (atual.getEsquerdo() == null) {
 						atual.setEsquerdo(new No(valorNoAdicionado, null, null));
-						return;
+						return true;
 					}
 					atual = atual.getEsquerdo();
 				} else if (valorNoAdicionado.getCodigo() > atual.getCodigoContato()) {
 					if (atual.getDireito() == null) {
 						atual.setDireito(new No(valorNoAdicionado, null, null));
-						return;
+						return true;
 					}
 					atual = atual.getDireito();
 				} else {
-					return; // Valor já existe na árvore, não faz nada
+					return false; // Valor já existe na árvore, não faz nada
 				}
 			}
 		}

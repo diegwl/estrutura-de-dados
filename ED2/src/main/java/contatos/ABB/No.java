@@ -46,4 +46,7 @@ public class No {
 	public String getNomeContato() {
 		return getValor().getNome();
 	}
+	public String getTelefoneContato() {
+		return getValor().getTelefone();
+	}
 }

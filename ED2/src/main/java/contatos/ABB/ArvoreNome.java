@@ -115,7 +115,7 @@ public class ArvoreNome {
 		} else {
 			No atual = raiz;
 			while (true) {
-				if (valorNoAdicionado.getNome().compareTo(atual.getNomeContato()) < 0) {
+				if (valorNoAdicionado.getNome().compareTo(atual.getNomeContato()) <= 0) {
 					if (atual.getEsquerdo() == null) {
 						atual.setEsquerdo(new No(valorNoAdicionado, null, null));
 						return;
@@ -128,18 +128,18 @@ public class ArvoreNome {
 					}
 					atual = atual.getDireito();
 				} else {
-					return; // Valor já existe na árvore, não faz nada
+					return;
 				}
 			}
 		}
 	}
 
-	public void removeNoPorValor(String valorARemover) {
+	public void removeNoPorValor(String valorARemover, int codigo) {
 
 		No pai = null;
 		No atual = raiz;
 		while (atual != null) {
-			if (valorARemover.equals(atual.getNomeContato())) {
+			if (valorARemover.equals(atual.getNomeContato()) && codigo == atual.getCodigoContato()) {
 				if (atual.ehFolha()) {
 					removerNoFolha(pai, atual);
 				} else if (atual.getDireito() == null) {
@@ -149,7 +149,7 @@ public class ArvoreNome {
 				} else {
 					No sucessor = buscarSucessor(atual);
 					Contato valorSucessor = sucessor.getValor();
-					removeNoPorValor(valorSucessor.getNome());
+					removeNoPorValor(valorSucessor.getNome(), valorSucessor.getCodigo());
 					atual.setValor(valorSucessor);
 				}
 				return;
@@ -226,7 +226,7 @@ public class ArvoreNome {
 	private void percorrerInOrder(No noReferencia) {
 		if (noReferencia != null) {
 			percorrerInOrder(noReferencia.getEsquerdo());
-			System.out.println(noReferencia.getValor());
+			System.out.printf("\nCódigo: %d\nNome: %s\nTelefone: %s\n", noReferencia.getCodigoContato(),noReferencia.getNomeContato(), noReferencia.getTelefoneContato());
 			percorrerInOrder(noReferencia.getDireito());
 		}
 	}
