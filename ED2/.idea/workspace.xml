@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e910635-5fe8-4f8c-a428-67e40f1ae9e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/contatos/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/contatos/ABB/ArvoreCodigo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contatos/ABB/ArvoreCodigo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/contatos/ABB/ArvoreNome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contatos/ABB/ArvoreNome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/contatos/ABB/No.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contatos/ABB/No.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +23,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2dpTSO9JZjyacDKe876h8UazlkB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,12 +34,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.HashVetorTest.testRemoverClienteComColisao.executor": "Run",
+    "JUnit.HashVetorTest.testRemoverClienteSemColisao.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.HashVetorTest.testRemoverClienteSemColisao">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="contatos.Main" />
       <module name="ED2" />
@@ -58,8 +56,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HashVetorTest.testRemoverClienteComColisao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ED2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TabelaHash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TabelaHash" />
+      <option name="MAIN_CLASS_NAME" value="TabelaHash.HashVetorTest" />
+      <option name="METHOD_NAME" value="testRemoverClienteComColisao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashVetorTest.testRemoverClienteSemColisao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ED2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TabelaHash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TabelaHash" />
+      <option name="MAIN_CLASS_NAME" value="TabelaHash.HashVetorTest" />
+      <option name="METHOD_NAME" value="testRemoverClienteSemColisao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HashVetorTest.testRemoverClienteSemColisao" />
+        <item itemvalue="JUnit.HashVetorTest.testRemoverClienteComColisao" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
