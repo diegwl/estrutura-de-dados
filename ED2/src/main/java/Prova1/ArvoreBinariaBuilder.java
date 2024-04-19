@@ -27,7 +27,6 @@ public class ArvoreBinariaBuilder {
 	}
 	
 	public ArvoreBinariaBusca montaArvoreCheia2() {
-		
 		this.arvore = new ArvoreBinariaBusca();
 		arvore.adicionaNo(25);
 		arvore.adicionaNo(36);
@@ -42,8 +41,6 @@ public class ArvoreBinariaBuilder {
 		arvore.adicionaNo(7);
 		arvore.adicionaNo(3);
 		return arvore;
-		
-		
 	}
 
 }

@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class ABBTest {
 
 	private ArvoreBinariaBusca arvore = new ArvoreBinariaBusca();
-	private ArvoreBinariaBuilder builder = new ArvoreBinariaBuilder();
+	private final ArvoreBinariaBuilder builder = new ArvoreBinariaBuilder();
 
 	@Test
 	void pegarNumeroDeParesVazia() {

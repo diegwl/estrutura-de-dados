@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e910635-5fe8-4f8c-a428-67e40f1ae9e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Prova1/ABBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Prova1/ABBTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Prova1/ArvoreBinariaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Prova1/ArvoreBinariaBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
