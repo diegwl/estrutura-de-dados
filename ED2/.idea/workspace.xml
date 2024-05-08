@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e910635-5fe8-4f8c-a428-67e40f1ae9e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sort/Merge_Quick/Nota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sort/Merge_Quick/TestaEncontraMenores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sort/Merge_Quick/TestaIntercalaUmArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sort/Merge_Quick/TestaMerge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sort/Merge_Quick/TestaOrdenacaoRapida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sort/Merge_Quick/TestaPivota.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -56,50 +50,74 @@
       <recent name="C:\Users\ht3025179\Desktop\estrutura-de-dados\ED2\src\main\java\Prova1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lod7ca\Desktop\estrutura-de-dados\ED2\src\main\java\TabelaHash2" />
       <recent name="C:\Users\diego\OneDrive\Área de Trabalho\estrutura-de-dados\ED2\src\main\java\Sort\Merge_Quick" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Prova1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteTempo">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="contatos.Main" />
+  <component name="RunManager" selected="JUnit.HashVetorTest.tesMediaPesquisaComColisao">
+    <configuration name="HashVetorTest.tesMediaPesquisaComColisao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ED2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="contatos.*" />
+          <option name="PATTERN" value="TabelaHash2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="TabelaHash2" />
+      <option name="MAIN_CLASS_NAME" value="TabelaHash2.HashVetorTest" />
+      <option name="METHOD_NAME" value="tesMediaPesquisaComColisao" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteTempo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.Merge_Quick.TesteTempo" />
+    <configuration name="HashVetorTest.testContemClienteComColisao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ED2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.Merge_Quick.*" />
+          <option name="PATTERN" value="TabelaHash2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="TabelaHash2" />
+      <option name="MAIN_CLASS_NAME" value="TabelaHash2.HashVetorTest" />
+      <option name="METHOD_NAME" value="testContemClienteComColisao" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ABBTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HashVetorTest.testContemClienteSemColisao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ED2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Prova1.*" />
+          <option name="PATTERN" value="TabelaHash2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Prova1" />
-      <option name="MAIN_CLASS_NAME" value="Prova1.ABBTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="TabelaHash2" />
+      <option name="MAIN_CLASS_NAME" value="TabelaHash2.HashVetorTest" />
+      <option name="METHOD_NAME" value="testContemClienteSemColisao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashVetorTest.testMediaPesquisaSemColisao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ED2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TabelaHash2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TabelaHash2" />
+      <option name="MAIN_CLASS_NAME" value="TabelaHash2.HashVetorTest" />
+      <option name="METHOD_NAME" value="testMediaPesquisaSemColisao" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,29 +126,13 @@
       <module name="ED2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TabelaHash.*" />
+          <option name="PATTERN" value="TabelaHash2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TabelaHash" />
-      <option name="MAIN_CLASS_NAME" value="TabelaHash.HashVetorTest" />
+      <option name="PACKAGE_NAME" value="TabelaHash2" />
+      <option name="MAIN_CLASS_NAME" value="TabelaHash2.HashVetorTest" />
       <option name="METHOD_NAME" value="testRemoverClienteComColisao" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashVetorTest.testRemoverClienteSemColisao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ED2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TabelaHash.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TabelaHash" />
-      <option name="MAIN_CLASS_NAME" value="TabelaHash.HashVetorTest" />
-      <option name="METHOD_NAME" value="testRemoverClienteSemColisao" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TesteTempo" />
-        <item itemvalue="JUnit.ABBTest" />
-        <item itemvalue="JUnit.HashVetorTest.testRemoverClienteSemColisao" />
+        <item itemvalue="JUnit.HashVetorTest.tesMediaPesquisaComColisao" />
+        <item itemvalue="JUnit.HashVetorTest.testMediaPesquisaSemColisao" />
+        <item itemvalue="JUnit.HashVetorTest.testContemClienteSemColisao" />
+        <item itemvalue="JUnit.HashVetorTest.testContemClienteComColisao" />
         <item itemvalue="JUnit.HashVetorTest.testRemoverClienteComColisao" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -163,5 +165,10 @@
       <updated>1710704021193</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ED2$HashVetorTest_testCriarTabelaTamanhoZeroNegativo.ic" NAME="HashVetorTest.testCriarTabelaTamanhoZeroNegativo Coverage Results" MODIFIED="1715186073218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TabelaHash2.*</FILTER>
+    </SUITE>
   </component>
 </project>
