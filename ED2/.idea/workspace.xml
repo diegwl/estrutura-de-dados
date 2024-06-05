@@ -57,7 +57,22 @@
       <recent name="Prova1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HashVetorTest.tesMediaPesquisaComColisao">
+  <component name="RunManager" selected="JUnit.CustomerOperatorTest">
+    <configuration name="CustomerOperatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ED2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ChallengeApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ChallengeApp" />
+      <option name="MAIN_CLASS_NAME" value="ChallengeApp.CustomerOperatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HashVetorTest.tesMediaPesquisaComColisao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ED2" />
       <extension name="coverage">
@@ -122,29 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashVetorTest.testRemoverClienteComColisao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ED2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TabelaHash2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TabelaHash2" />
-      <option name="MAIN_CLASS_NAME" value="TabelaHash2.HashVetorTest" />
-      <option name="METHOD_NAME" value="testRemoverClienteComColisao" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerOperatorTest" />
         <item itemvalue="JUnit.HashVetorTest.tesMediaPesquisaComColisao" />
         <item itemvalue="JUnit.HashVetorTest.testMediaPesquisaSemColisao" />
-        <item itemvalue="JUnit.HashVetorTest.testContemClienteSemColisao" />
         <item itemvalue="JUnit.HashVetorTest.testContemClienteComColisao" />
-        <item itemvalue="JUnit.HashVetorTest.testRemoverClienteComColisao" />
+        <item itemvalue="JUnit.HashVetorTest.testContemClienteSemColisao" />
       </list>
     </recent_temporary>
   </component>
