@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e910635-5fe8-4f8c-a428-67e40f1ae9e7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,11 +41,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ht3025179/Desktop/estrutura-de-dados/ED2/src/main/java/Prova1&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/diego/OneDrive/Área de Trabalho/estrutura-de-dados/ED2/src/main/java/ChallengeAppResolved/search&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\diego\OneDrive\Área de Trabalho\estrutura-de-dados\ED2\src\main\java\ChallengeAppResolved\search" />
+      <recent name="C:\Users\diego\OneDrive\Área de Trabalho\estrutura-de-dados\ED2\src\main\java\ChallengeAppResolved" />
       <recent name="C:\Users\ht3025179\Desktop\estrutura-de-dados\ED2\src\main\java\Prova1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -57,7 +58,7 @@
       <recent name="Prova1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerOperatorTest">
+  <component name="RunManager" selected="JUnit.CustomerOperatorTest.testFindById">
     <configuration name="CustomerOperatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ED2" />
       <extension name="coverage">
@@ -73,65 +74,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashVetorTest.tesMediaPesquisaComColisao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerOperatorTest.testFindById (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ED2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TabelaHash2.*" />
+          <option name="PATTERN" value="ChallengeApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TabelaHash2" />
-      <option name="MAIN_CLASS_NAME" value="TabelaHash2.HashVetorTest" />
-      <option name="METHOD_NAME" value="tesMediaPesquisaComColisao" />
+      <option name="PACKAGE_NAME" value="ChallengeApp" />
+      <option name="MAIN_CLASS_NAME" value="ChallengeApp.CustomerOperatorTest" />
+      <option name="METHOD_NAME" value="testFindById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashVetorTest.testContemClienteComColisao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerOperatorTest.testFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ED2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TabelaHash2.*" />
+          <option name="PATTERN" value="ChallengeAppResolved.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TabelaHash2" />
-      <option name="MAIN_CLASS_NAME" value="TabelaHash2.HashVetorTest" />
-      <option name="METHOD_NAME" value="testContemClienteComColisao" />
+      <option name="PACKAGE_NAME" value="ChallengeAppResolved" />
+      <option name="MAIN_CLASS_NAME" value="ChallengeAppResolved.CustomerOperatorTest" />
+      <option name="METHOD_NAME" value="testFindById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashVetorTest.testContemClienteSemColisao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerOperatorTest.testOrderById (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ED2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TabelaHash2.*" />
+          <option name="PATTERN" value="ChallengeApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TabelaHash2" />
-      <option name="MAIN_CLASS_NAME" value="TabelaHash2.HashVetorTest" />
-      <option name="METHOD_NAME" value="testContemClienteSemColisao" />
+      <option name="PACKAGE_NAME" value="ChallengeApp" />
+      <option name="MAIN_CLASS_NAME" value="ChallengeApp.CustomerOperatorTest" />
+      <option name="METHOD_NAME" value="testOrderById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashVetorTest.testMediaPesquisaSemColisao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerOperatorTest.testOrderById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ED2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TabelaHash2.*" />
+          <option name="PATTERN" value="ChallengeAppResolved.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TabelaHash2" />
-      <option name="MAIN_CLASS_NAME" value="TabelaHash2.HashVetorTest" />
-      <option name="METHOD_NAME" value="testMediaPesquisaSemColisao" />
+      <option name="PACKAGE_NAME" value="ChallengeAppResolved" />
+      <option name="MAIN_CLASS_NAME" value="ChallengeAppResolved.CustomerOperatorTest" />
+      <option name="METHOD_NAME" value="testOrderById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerOperatorTest.testFindById" />
+        <item itemvalue="JUnit.CustomerOperatorTest.testOrderById (1)" />
+        <item itemvalue="JUnit.CustomerOperatorTest.testOrderById" />
+        <item itemvalue="JUnit.CustomerOperatorTest.testFindById (1)" />
         <item itemvalue="JUnit.CustomerOperatorTest" />
-        <item itemvalue="JUnit.HashVetorTest.tesMediaPesquisaComColisao" />
-        <item itemvalue="JUnit.HashVetorTest.testMediaPesquisaSemColisao" />
-        <item itemvalue="JUnit.HashVetorTest.testContemClienteComColisao" />
-        <item itemvalue="JUnit.HashVetorTest.testContemClienteSemColisao" />
       </list>
     </recent_temporary>
   </component>
